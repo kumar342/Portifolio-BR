@@ -26,6 +26,17 @@ export default class Blogs extends Component {
             Click me
           </a>
         </div>
+        <div>
+          <img
+            src="public/assets/node-aws.png"
+            width="40%"
+            height="40%"
+            alt="blog"
+          />
+          <a href="https://medium.com/@hemanth2gundala/how-to-deploy-node-application-on-aws-be60b0e508e4">
+            Click me
+          </a>
+        </div>
       </div>
     );
   }

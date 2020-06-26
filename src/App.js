@@ -3,7 +3,6 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
-import About from "./components/About";
 import Blogs from "./components/Blogs";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
@@ -17,7 +16,6 @@ class App extends Component {
         <Navbar />
         <Switch>
           <Route exact path="/" exact component={Home} />
-          <Route exact path={"/about"} component={About} />
           <Route exact path={"/contact"} component={Contact} />
           <Route exact path={"/blogs"} component={Blogs} />
           <Route exact path={"/projects"} component={Projects} />

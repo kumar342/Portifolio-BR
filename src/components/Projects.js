@@ -14,19 +14,20 @@ export default class Projects extends Component {
                     It is a React Application that use digital contact tracing
                     in response to the Covid-19-Pandemic
                   </p>
-                  <a
-                    href="https://github.com/kumar342/Covid-19.git"
-                    className="btn btn-primary mr-3"
-                  >
-                    View Source
-                  </a>
+                  <button type="button" className="btn btn-outline-dark mr-2">
+                    {" "}
+                    <a href="https://github.com/kumar342/Covid-19.git">
+                      <i className="fa fa-github" aria-hidden="true"></i> View
+                      Source
+                    </a>
+                  </button>
                   &nbsp;
-                  <a
-                    href="https://covid-19-tracking-hk.netlify.app/"
-                    className="stretched-link"
-                  >
-                    Visit web
-                  </a>
+                  <button type="button" className="btn btn-outline-primary">
+                    <a href="https://covid-19-tracking-hk.netlify.app/">
+                      <i className="fa fa-globe mr-1" aria-hidden="true"></i>
+                      Visit Web
+                    </a>
+                  </button>
                 </div>
               </div>
             </div>
